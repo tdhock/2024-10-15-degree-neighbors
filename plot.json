@@ -1,0 +1,890 @@
+{
+ "geoms": {
+ "geom1_tallrect_error": {
+ "geom": "tallrect",
+"classed": "geom1_tallrect_error",
+"aes": {
+ "xmin": "parameter - 0.5",
+"xmax": "parameter + 0.5",
+"fill": "regularization",
+"clickSelects.variable": "regularization",
+"clickSelects.value": "parameter" 
+},
+"params": {
+ "na.rm": false,
+"na.rm": false,
+"alpha":      0.5,
+"colour": "transparent",
+"clickSelects": "parameter" 
+},
+"types": {
+ "fill": "rgb",
+"xmin": "numeric",
+"xmax": "numeric",
+"clickSelects.variable": "character",
+"clickSelects.value": "integer",
+"PANEL": "factor",
+"group": "character" 
+},
+"chunk_order": [],
+"nest_order": [
+ "PANEL" 
+],
+"subset_order": [
+ "PANEL" 
+],
+"chunks": 1,
+"total": 1 
+},
+"geom2_line_error": {
+ "geom": "line",
+"classed": "geom2_line_error",
+"aes": {
+ "x": "parameter",
+"y": "log10(mse.thresh)",
+"colour": "set",
+"group": "paste(pattern, set)",
+"clickSelects": "pattern",
+"showSelected1": "set" 
+},
+"params": {
+ "na.rm": false,
+"na.rm": false,
+"size":        5,
+"clickSelects": "pattern",
+"showSelected": "set",
+"alpha_off":      0.1 
+},
+"types": {
+ "colour": "rgb",
+"y": "numeric",
+"x": "numeric",
+"group": "character",
+"clickSelects": "character",
+"showSelected1": "character",
+"PANEL": "factor" 
+},
+"chunk_order": [],
+"nest_order": [
+ "showSelected1",
+"PANEL",
+"group" 
+],
+"subset_order": [
+ "showSelected1",
+"PANEL" 
+],
+"chunks": 1,
+"total": 1 
+},
+"geom3_point_error": {
+ "geom": "point",
+"classed": "geom3_point_error",
+"aes": {
+ "x": "parameter",
+"y": "log10(mse.thresh)",
+"colour": "set",
+"clickSelects": "pattern",
+"showSelected1": "set" 
+},
+"params": {
+ "na.rm": false,
+"na.rm": false,
+"shape":        1,
+"fill": "#FFFFFF",
+"size":        4,
+"alpha_off":      0.1,
+"clickSelects": "pattern",
+"showSelected": "set" 
+},
+"types": {
+ "colour": "rgb",
+"y": "numeric",
+"x": "numeric",
+"clickSelects": "character",
+"showSelected1": "character",
+"PANEL": "factor",
+"group": "character" 
+},
+"chunk_order": [],
+"nest_order": [
+ "showSelected1",
+"PANEL" 
+],
+"subset_order": [
+ "showSelected1",
+"PANEL" 
+],
+"chunks": 1,
+"total": 1 
+},
+"geom4_text_error": {
+ "geom": "text",
+"classed": "geom4_text_error",
+"aes": {
+ "x": "parameter",
+"y": "log10(mse.thresh)",
+"hjust": "hjust",
+"label": "pattern",
+"colour": "set",
+"clickSelects": "pattern",
+"showSelected1": "set" 
+},
+"params": {
+ "parse": false,
+"check_overlap": false,
+"na.rm": false,
+"na.rm": false,
+"clickSelects": "pattern",
+"showSelected": "set" 
+},
+"types": {
+ "colour": "rgb",
+"y": "numeric",
+"x": "numeric",
+"label": "character",
+"clickSelects": "character",
+"showSelected1": "character",
+"PANEL": "factor",
+"group": "character",
+"anchor": "character" 
+},
+"chunk_order": [],
+"nest_order": [
+ "showSelected1",
+"PANEL" 
+],
+"subset_order": [
+ "showSelected1",
+"PANEL" 
+],
+"chunks": 1,
+"total": 1 
+},
+"geom5_point_funs": {
+ "geom": "point",
+"classed": "geom5_point_funs",
+"aes": {
+ "x": "x",
+"y": "ynorm",
+"fill": "set",
+"key": "x",
+"showSelectedlegendfill": "set",
+"showSelected1": "pattern" 
+},
+"params": {
+ "na.rm": false,
+"na.rm": false,
+"size":        4,
+"showSelected": "pattern" 
+},
+"types": {
+ "fill": "rgb",
+"x": "numeric",
+"y": "numeric",
+"key": "numeric",
+"showSelectedlegendfill": "character",
+"showSelected1": "character",
+"PANEL": "integer",
+"group": "character" 
+},
+"chunk_order": [
+ "pattern" 
+],
+"nest_order": [
+ "showSelectedlegendfill" 
+],
+"subset_order": [
+ "showSelectedlegendfill" 
+],
+"columns": {
+ "common": [
+ "fill",
+"x",
+"key",
+"showSelectedlegendfill",
+"group" 
+] 
+},
+"chunks": {
+ "constant": 1,
+"cubic": 2,
+"linear": 3,
+"quadratic": 4 
+},
+"total": 4 
+},
+"geom6_line_funs": {
+ "geom": "line",
+"classed": "geom6_line_funs",
+"aes": {
+ "x": "x",
+"y": "pred.thresh",
+"size": "regularization",
+"key": "regularization",
+"group": "regularization",
+"colour": "regularization",
+"showSelectedlegendcoloursize": "regularization",
+"showSelected1": "pattern",
+"showSelected.variable": "regularization",
+"showSelected.value": "parameter" 
+},
+"params": {
+ "na.rm": false,
+"na.rm": false,
+"showSelected": [ "pattern", "parameter" ] 
+},
+"types": {
+ "colour": "rgb",
+"size": "numeric",
+"x": "numeric",
+"y": "numeric",
+"key": "character",
+"group": "character",
+"showSelectedlegendcoloursize": "character",
+"showSelected1": "character",
+"showSelected.variable": "character",
+"showSelected.value": "integer",
+"PANEL": "integer" 
+},
+"chunk_order": [
+ "pattern" 
+],
+"nest_order": [
+ "showSelectedlegendcoloursize",
+"showSelected.variable",
+"showSelected.value",
+"group" 
+],
+"subset_order": [
+ "showSelectedlegendcoloursize",
+"showSelected.variable" 
+],
+"columns": {
+ "common": [
+ "colour",
+"size",
+"key",
+"group",
+"showSelectedlegendcoloursize",
+"showSelected.variable",
+"showSelected.value" 
+] 
+},
+"chunks": {
+ "constant": 1,
+"cubic": 2,
+"quadratic": 3,
+"linear": 4 
+},
+"total": 4 
+} 
+},
+"duration": {
+ "pattern":     1000,
+"linear model polynomial degree":     1000,
+"number of nearest neighbors":     1000 
+},
+"selectors": {
+ "set": {
+ "type": "multiple",
+"legend": true,
+"is.variable.value": false,
+"showSelected": true,
+"selected": [ "subtrain", "validation" ],
+"levels": [ "subtrain", "validation" ],
+"update": [
+ "geom2_line_error",
+"geom3_point_error",
+"geom4_text_error",
+"geom5_point_funs" 
+] 
+},
+"regularization": {
+ "type": "multiple",
+"legend": true,
+"is.variable.value": false,
+"showSelected": true,
+"selected": [ "linear model polynomial degree", "number of nearest neighbors" ],
+"levels": [ "linear model polynomial degree", "number of nearest neighbors" ],
+"update": [
+ "geom6_line_funs" 
+] 
+},
+"linear model polynomial degree": {
+ "is.variable.value": true,
+"type": "single",
+"clickSelects": true,
+"showSelected": true,
+"selected": "0",
+"update": [
+ "geom1_tallrect_error",
+"geom6_line_funs" 
+],
+"duration":     1000 
+},
+"number of nearest neighbors": {
+ "is.variable.value": true,
+"type": "single",
+"clickSelects": true,
+"showSelected": true,
+"selected": "10",
+"update": [
+ "geom1_tallrect_error",
+"geom6_line_funs" 
+],
+"duration":     1000 
+},
+"pattern": {
+ "is.variable.value": false,
+"type": "single",
+"clickSelects": true,
+"showSelected": true,
+"chunks": "pattern",
+"selected": "constant",
+"levels": [ "constant", "cubic", "linear", "quadratic" ],
+"update": [
+ "geom2_line_error",
+"geom3_point_error",
+"geom4_text_error",
+"geom5_point_funs",
+"geom6_line_funs" 
+],
+"duration":     1000 
+} 
+},
+"plots": {
+ "error": {
+ "panel_margin_lines":     0.25,
+"strips": {
+ "right": [
+ "linear model polynomial degree",
+"number of nearest neighbors" 
+],
+"top": [
+ "",
+"" 
+],
+"n": {
+ "top":        1,
+"right":        1 
+} 
+},
+"layout": {
+ "PANEL": [ "1", "2" ],
+"ROW": [ 1, 2 ],
+"COL": [ 1, 1 ],
+"regularization": [ "linear model polynomial degree", "number of nearest neighbors" ],
+"SCALE_X": [ 1, 1 ],
+"SCALE_Y": [ 1, 2 ],
+"AXIS_Y": [ true, true ],
+"AXIS_X": [ false, true ],
+"coord_fixed": [ false, false ],
+"width_proportion": [        1,        1 ],
+"height_proportion": [      0.5,      0.5 ] 
+},
+"panel_background": {
+ "fill": "#EBEBEB",
+"colour": "transparent",
+"size":      0.5,
+"linetype":        1 
+},
+"panel_border": [],
+"grid_major": {
+ "colour": "#FFFFFF",
+"size":      0.5,
+"linetype":        1,
+"lineend": "butt",
+"loc": {
+ "x": [
+ [
+        0,
+       1,
+       2,
+       3,
+       4,
+       5,
+       6,
+       7,
+       8,
+       9,
+      10 
+],
+[
+        0,
+       1,
+       2,
+       3,
+       4,
+       5,
+       6,
+       7,
+       8,
+       9,
+      10 
+] 
+],
+"y": [
+ [
+       -4,
+      -3,
+      -2,
+      -1,
+       0,
+       1 
+],
+[
+     -2.5,
+      -2,
+    -1.5,
+      -1 
+] 
+] 
+} 
+},
+"grid_minor": {
+ "colour": "#FFFFFF",
+"size":     0.25,
+"linetype":        1,
+"lineend": "butt",
+"loc": {
+ "x": [
+ [
+       -1,
+    -0.5,
+       0,
+     0.5,
+       1,
+     1.5,
+       2,
+     2.5,
+       3,
+     3.5,
+       4,
+     4.5,
+       5,
+     5.5,
+       6,
+     6.5,
+       7,
+     7.5,
+       8,
+     8.5,
+       9,
+     9.5,
+      10,
+    10.5,
+      11 
+],
+[
+       -1,
+    -0.5,
+       0,
+     0.5,
+       1,
+     1.5,
+       2,
+     2.5,
+       3,
+     3.5,
+       4,
+     4.5,
+       5,
+     5.5,
+       6,
+     6.5,
+       7,
+     7.5,
+       8,
+     8.5,
+       9,
+     9.5,
+      10,
+    10.5,
+      11 
+] 
+],
+"y": [
+ [
+     -4.5,
+      -4,
+    -3.5,
+      -3,
+    -2.5,
+      -2,
+    -1.5,
+      -1,
+    -0.5,
+       0,
+     0.5,
+       1 
+],
+[
+     -2.5,
+   -2.25,
+      -2,
+   -1.75,
+    -1.5,
+   -1.25,
+      -1 
+] 
+] 
+} 
+},
+"axis1": {
+ "x": [
+        0,
+       1,
+       2,
+       3,
+       4,
+       5,
+       6,
+       7,
+       8,
+       9,
+      10 
+],
+"xlab": [
+ "0",
+"1",
+"2",
+"3",
+"4",
+"5",
+"6",
+"7",
+"8",
+"9",
+"10" 
+],
+"xrange": [     -1.6,     11.6 ],
+"xline": true,
+"xticks": true,
+"y": [
+       -4,
+      -3,
+      -2,
+      -1,
+       0,
+       1 
+],
+"ylab": [
+ "-4",
+"-3",
+"-2",
+"-1",
+"0",
+"1" 
+],
+"yrange": [ -4.914376, 1.205711 ],
+"yline": true,
+"yticks": true 
+},
+"axis2": {
+ "x": [
+        0,
+       1,
+       2,
+       3,
+       4,
+       5,
+       6,
+       7,
+       8,
+       9,
+      10 
+],
+"xlab": [
+ "0",
+"1",
+"2",
+"3",
+"4",
+"5",
+"6",
+"7",
+"8",
+"9",
+"10" 
+],
+"xrange": [     -1.6,     11.6 ],
+"xline": true,
+"xticks": true,
+"y": [
+     -2.5,
+      -2,
+    -1.5,
+      -1 
+],
+"ylab": [
+ "-2.5",
+"-2.0",
+"-1.5",
+"-1.0" 
+],
+"yrange": [ -2.603235, -0.8178692 ],
+"yline": true,
+"yticks": true 
+},
+"xtitle": "regularization parameter",
+"strip_text_xsize": "11pt",
+"xsize": "11pt",
+"xangle":        0,
+"xanchor": "middle",
+"ytitle": "log10(mean squared error)",
+"strip_text_ysize": "11pt",
+"ysize": "11pt",
+"yangle":        0,
+"yanchor": "end",
+"xlabs": [
+ "0",
+"1",
+"2",
+"3",
+"4",
+"5",
+"6",
+"7",
+"8",
+"9",
+"10" 
+],
+"ylabs": [
+ "-4",
+"-3",
+"-2",
+"-1",
+"0",
+"1",
+"-2.5",
+"-2.0",
+"-1.5",
+"-1.0" 
+],
+"title": "Select pattern and models",
+"title_size": "13.2pt",
+"options": {
+ "width":      400,
+"height":      500 
+},
+"geoms": [
+ "geom1_tallrect_error",
+"geom2_line_error",
+"geom3_point_error",
+"geom4_text_error" 
+] 
+},
+"funs": {
+ "panel_margin_lines":     0.25,
+"legend": {
+ "set": {
+ "guide": "legend",
+"geoms": "point",
+"title": "set",
+"class": "set",
+"selector": "set",
+"is_discrete": true,
+"legend_type": "fill",
+"text_size": "8.8pt",
+"title_size": "11pt",
+"entries": [
+ {
+ "pointfill": "#000000",
+"pointshape":       19,
+"pointcolour": "#000000",
+"pointsize":        4,
+"pointstroke":      0.5,
+"label": "subtrain" 
+},
+{
+ "pointfill": "#FF0000",
+"pointshape":       19,
+"pointcolour": "#000000",
+"pointsize":        4,
+"pointstroke":      0.5,
+"label": "validation" 
+} 
+] 
+},
+"regularization": {
+ "guide": "legend",
+"geoms": "path",
+"title": "regularization",
+"class": "regularization",
+"selector": "regularization",
+"is_discrete": true,
+"legend_type": [ "colour", "size" ],
+"text_size": "8.8pt",
+"title_size": "11pt",
+"entries": [
+ {
+ "pathsize":        3,
+"pathcolour": "#0000FF",
+"pathlinetype":        1,
+"label": "linear model polynomial degree" 
+},
+{
+ "pathsize":        2,
+"pathcolour": "#00FF00",
+"pathlinetype":        1,
+"label": "number of nearest neighbors" 
+} 
+] 
+} 
+},
+"strips": {
+ "top": [
+ "" 
+],
+"right": [
+ "" 
+],
+"n": {
+ "top":        0,
+"right":        0 
+} 
+},
+"layout": {
+ "PANEL": [ 1 ],
+"ROW": [ 1 ],
+"COL": [ 1 ],
+"SCALE_X": [ 1 ],
+"SCALE_Y": [ 1 ],
+"AXIS_X": [ true ],
+"AXIS_Y": [ true ],
+"coord_fixed": [ false ],
+"width_proportion": [        1 ],
+"height_proportion": [        1 ] 
+},
+"panel_background": {
+ "fill": "#EBEBEB",
+"colour": "transparent",
+"size":      0.5,
+"linetype":        1 
+},
+"panel_border": [],
+"grid_major": {
+ "colour": "#FFFFFF",
+"size":      0.5,
+"linetype":        1,
+"lineend": "butt",
+"loc": {
+ "x": [
+ [
+       -5,
+    -2.5,
+       0,
+     2.5,
+       5 
+] 
+],
+"y": [
+ [
+        0,
+     0.4,
+     0.8 
+] 
+] 
+} 
+},
+"grid_minor": {
+ "colour": "#FFFFFF",
+"size":     0.25,
+"linetype":        1,
+"lineend": "butt",
+"loc": {
+ "x": [
+ [
+       -5,
+   -3.75,
+    -2.5,
+   -1.25,
+       0,
+    1.25,
+     2.5,
+    3.75,
+       5 
+] 
+],
+"y": [
+ [
+        0,
+     0.2,
+     0.4,
+     0.6,
+     0.8,
+       1 
+] 
+] 
+} 
+},
+"axis1": {
+ "x": [
+       -5,
+    -2.5,
+       0,
+     2.5,
+       5 
+],
+"xlab": [
+ "-5.0",
+"-2.5",
+"0.0",
+"2.5",
+"5.0" 
+],
+"xrange": [     -5.5,      5.5 ],
+"xline": true,
+"xticks": true,
+"y": [
+        0,
+     0.4,
+     0.8 
+],
+"ylab": [
+ "0.0",
+"0.4",
+"0.8" 
+],
+"yrange": [ -0.159663, 1.159639 ],
+"yline": true,
+"yticks": true 
+},
+"xtitle": "input/feature",
+"strip_text_xsize": "11pt",
+"xsize": "11pt",
+"xangle":        0,
+"xanchor": "middle",
+"ytitle": "output/label",
+"strip_text_ysize": "11pt",
+"ysize": "11pt",
+"yangle":        0,
+"yanchor": "end",
+"xlabs": [
+ "-5.0",
+"-2.5",
+"0.0",
+"2.5",
+"5.0" 
+],
+"ylabs": [
+ "0.0",
+"0.4",
+"0.8" 
+],
+"title": "Selected pattern (points) and models (curves)",
+"title_size": "13.2pt",
+"options": {
+ "width":      400,
+"height":      500 
+},
+"geoms": [
+ "geom5_point_funs",
+"geom6_line_funs" 
+] 
+} 
+},
+"title": "Overfitting using linear model polynomial degree and nearest neighbors",
+"source": "https://github.com/tdhock/2024-08-ift603-712/blob/master/figure-sur-sous-apprentissage.R" 
+}

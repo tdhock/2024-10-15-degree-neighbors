@@ -1,0 +1,9 @@
+colour	y	x	label	clickSelects	showSelected1	PANEL	group	anchor
+#FF0000	0.613120601700546	9	constant	constant	validation	1	1	start
+#FF0000	0.927525321587178	9	cubic	cubic	validation	1	2	start
+#FF0000	-0.174820644780171	9	quadratic	quadratic	validation	1	4	start
+#FF0000	-0.7637321998256	9	linear	linear	validation	1	3	start
+#FF0000	-0.899022184143929	1	constant	constant	validation	2	1	end
+#FF0000	-2.15729972116836	1	cubic	cubic	validation	2	2	end
+#FF0000	-1.69146465047131	1	quadratic	quadratic	validation	2	4	end
+#FF0000	-2.23511048090508	1	linear	linear	validation	2	3	end

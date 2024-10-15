@@ -1,0 +1,9 @@
+colour	y	x	clickSelects	showSelected1	PANEL
+#FF0000	-1.2083973951143	0	constant	validation	1
+#FF0000	-2.67294671261316	3	cubic	validation	1
+#FF0000	-2.21020150563011	2	quadratic	validation	1
+#FF0000	-2.80304884495615	1	linear	validation	1
+#FF0000	-1.21516687922132	6	constant	validation	2
+#FF0000	-2.15729972116836	1	cubic	validation	2
+#FF0000	-1.69146465047131	1	quadratic	validation	2
+#FF0000	-2.25857631578254	3	linear	validation	2

@@ -1,0 +1,21 @@
+fill	xmin	xmax	clickSelects.variable	clickSelects.value	PANEL	group
+#0000FF	-0.5	0.5	linear model polynomial degree	0	1	1
+#0000FF	0.5	1.5	linear model polynomial degree	1	1	1
+#0000FF	1.5	2.5	linear model polynomial degree	2	1	1
+#0000FF	2.5	3.5	linear model polynomial degree	3	1	1
+#0000FF	3.5	4.5	linear model polynomial degree	4	1	1
+#0000FF	4.5	5.5	linear model polynomial degree	5	1	1
+#0000FF	5.5	6.5	linear model polynomial degree	6	1	1
+#0000FF	6.5	7.5	linear model polynomial degree	7	1	1
+#0000FF	7.5	8.5	linear model polynomial degree	8	1	1
+#0000FF	8.5	9.5	linear model polynomial degree	9	1	1
+#00FF00	0.5	1.5	number of nearest neighbors	1	2	2
+#00FF00	1.5	2.5	number of nearest neighbors	2	2	2
+#00FF00	2.5	3.5	number of nearest neighbors	3	2	2
+#00FF00	3.5	4.5	number of nearest neighbors	4	2	2
+#00FF00	4.5	5.5	number of nearest neighbors	5	2	2
+#00FF00	5.5	6.5	number of nearest neighbors	6	2	2
+#00FF00	6.5	7.5	number of nearest neighbors	7	2	2
+#00FF00	7.5	8.5	number of nearest neighbors	8	2	2
+#00FF00	8.5	9.5	number of nearest neighbors	9	2	2
+#00FF00	9.5	10.5	number of nearest neighbors	10	2	2
